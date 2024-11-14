@@ -21,7 +21,7 @@ return(
 
  
     <ul className="nav-menu">
-        <li onClick={()=>setMenu("shop")}><Link style={{textDecoration:"none" , color:"#626262"} } to='/'>Shop</Link>{menu==="shop"?<hr/>:null} </li>
+        <li onClick={()=>setMenu("shop")}><Link style={{textDecoration:"none" , color:"#626262"} } to='/E-commerce-website-deployed'>Shop</Link>{menu==="shop"?<hr/>:null} </li>
         <li onClick={()=>setMenu("men")}><Link style={{textDecoration:"none" , color:"#626262"}} to='/men'>Men</Link>{menu==="men"?<hr/>:null}</li>
         <li onClick={()=>setMenu("women")}><Link style={{textDecoration:"none" , color:"#626262"}} to='/women'>Women</Link>{menu==="women"?<hr/>:null}</li>
         <li onClick={()=>setMenu("kids")}><Link style={{textDecoration:"none" , color:"#626262"}} to='/kids'>Kids</Link>{menu==="kids"?<hr/>:null}</li>       
